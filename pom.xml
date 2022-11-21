@@ -38,11 +38,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		
-		
-		
-		
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -72,10 +68,8 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0ets8ph6kgsf-artifactory-primary-0-releases</name>
-        <url>https://edwikifacts.jfrog.io/artifactory/edweb-libs-release-local</url>
+        <name>a0dmcmztxvdhk-artifactory-primary-0-releases</name>
+        <url>https://krmkube.jfrog.io/artifactory/dptweb-libs-release-local</url>
     </repository>
 </distributionManagement>
- 
-
 </project>
