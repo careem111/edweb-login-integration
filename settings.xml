@@ -1,14 +1,14 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>rihic63339@hostovz.com</username>
+      <username>lomic62605@probdd.com</username>
       <password>Asdf12345#</password>
       <id>central</id>
     </server>
     <server>
-      <username>rihic63339@hostovz.com</username>
+      <username>lomic62605@probdd.com</username>
       <password>Asdf12345#</password>
       <id>snapshots</id>
     </server>
@@ -22,13 +22,13 @@
           </snapshots>
           <id>central</id>
           <name>dptweb-libs-release</name>
-          <url>https://krmkube.jfrog.io/artifactory/dptweb-libs-release</url>
+          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>dptweb-libs-snapshot</name>
-          <url>https://krmkube.jfrog.io/artifactory/dptweb-libs-snapshot</url>
+          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -38,13 +38,13 @@
           </snapshots>
           <id>central</id>
           <name>dptweb-libs-release</name>
-          <url>https://krmkube.jfrog.io/artifactory/dptweb-libs-release</url>
+          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>dptweb-libs-snapshot</name>
-          <url>https://krmkube.jfrog.io/artifactory/dptweb-libs-snapshot</url>
+          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
@@ -54,4 +54,3 @@
     <activeProfile>artifactory</activeProfile>
   </activeProfiles>
 </settings>
-
