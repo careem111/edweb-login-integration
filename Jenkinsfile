@@ -27,7 +27,6 @@
       stage('Checkout SCM') {
     	  steps{
 	        container('build-agent'){
-	          git 'https://github.com/careem111/edweb-login-integration.git'
             sh 'mvn clean deploy -s settings.xml'
             }
 	        }
