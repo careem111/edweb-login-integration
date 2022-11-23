@@ -35,9 +35,11 @@
       stage('Docker Build'){
         steps{
           container('build-agent'){
+            script {
             docker.withRegistry( 'https://registry.hub.docker.com', 'docker'  ) {
               dockerImage = docker.build 'careem785/webapp'
               dockerImage.push('latest')
+                  }
                 }
              }
           }
@@ -45,9 +47,11 @@
       stage('Helm Chart'){
         steps{
           container('build-agent'){
-            docker.withRegistry( 'https://registry.hub.docker.com', 'docker'  ) {
-              dockerImage = docker.build 'careem785/webapp'
-              dockerImage.push('latest')
+            dir('charts') {
+              withCredentials([usernamePassword(credentialsId: 'jfrog', usernameVariable: 'username', passwordVariable: 'password')]) {
+              sh '/usr/local/bin/helm package webapp'
+              sh '/usr/local/bin/helm push-artifactory webapp-1.0.tgz https://krmkube2.jfrog.io/artifactory/edweb-helm-local --username $username --password $password'
+                    }
                 }
              }
           }
