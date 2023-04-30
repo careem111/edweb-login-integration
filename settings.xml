@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>lomic62605@probdd.com</username>
-      <password>Asdf12345#</password>
+      <username>bomese9103@saeoil.com</username>
+      <password>Asdf@12345</password>
       <id>central</id>
     </server>
     <server>
-      <username>lomic62605@probdd.com</username>
-      <password>Asdf12345#</password>
+      <username>bomese9103@saeoil.com</username>
+      <password>Asdf@12345</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -21,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>dptweb-libs-release</name>
-          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-release</url>
+          <name>libs-release</name>
+          <url>https://kubekrm.jfrog.io/artifactory/libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>dptweb-libs-snapshot</name>
-          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-snapshot</url>
+          <name>libs-snapshot</name>
+          <url>https://kubekrm.jfrog.io/artifactory/libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -37,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>dptweb-libs-release</name>
-          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-release</url>
+          <name>libs-release</name>
+          <url>https://kubekrm.jfrog.io/artifactory/libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>dptweb-libs-snapshot</name>
-          <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-snapshot</url>
+          <name>libs-snapshot</name>
+          <url>https://kubekrm.jfrog.io/artifactory/libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>

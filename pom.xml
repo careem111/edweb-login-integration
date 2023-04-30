@@ -69,7 +69,7 @@
     <repository>
         <id>central</id>
         <name>a0gegow2npum4-artifactory-primary-0-releases</name>
-        <url>https://krmkube2.jfrog.io/artifactory/dptweb-libs-release-local</url>
+        <url>https://kubekrm.jfrog.io/artifactory/libs-release-local</url>
     </repository>
 </distributionManagement>
 </project>
